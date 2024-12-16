@@ -17,7 +17,7 @@ subtitle                 : "A Jekyll theme"
 name                     : &name "Edwin Plasencia Hernández" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
 url                      : https://ull-mii-sytws-2425.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/intro2sd-template/" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/intro2sd-edwin-plasencia-hernandez-alu0101329888/" # the subpath of your site, e.g. "/blog"
 repository               : "ULL-MII-SYTWS-2425/intro2sd-edwin-plasencia-hernandez-alu0101329888"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -187,22 +187,37 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  summaries:
     output: true
+    permalink: /:collection/:path/
+  docs:
+    output: false
     permalink: /:collection/:path/
   recipes:
-    output: true
+    output: false
     permalink: /:collection/:path/
   pets:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
 # Defaults
 defaults:
+  # summaries
+  - scope:
+      path: ""
+      type: summaries
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "summaries"
   # _posts
   - scope:
       path: ""
