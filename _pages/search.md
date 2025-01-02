@@ -31,7 +31,7 @@ title: Search
     '{{site.url}}/assets/src/search.json',
     '#search',
     '#list',
-    '' // put here your /baseurl/
+    '/intro2sd-edwin-plasencia-hernandez-alu0101329888/' // put here your /baseurl/
   );
   search.init(); 
   
