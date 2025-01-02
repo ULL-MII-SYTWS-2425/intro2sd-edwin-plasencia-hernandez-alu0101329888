@@ -320,12 +320,13 @@
 <script type="text/javascript" src="/intro2sd-edwin-plasencia-hernandez-alu0101329888/assets/src/search.js"></script>
 
 <script type="text/javascript">
-  const search = new JekyllSearch(
-    'https://ull-mii-sytws-2425.github.io/intro2sd-edwin-plasencia-hernandez-alu0101329888//assets/src/search.json',
-    '#search',
-    '#list',
-    '/intro2sd-edwin-plasencia-hernandez-alu0101329888/' // put here your /baseurl/
-  );
+  const data = {
+    dataSource: 'https://ull-mii-sytws-2425.github.io/intro2sd-edwin-plasencia-hernandez-alu0101329888//assets/src/search.json',
+    searchField: '#search',
+    resultsList: '#list',
+    siteURL: '/intro2sd-edwin-plasencia-hernandez-alu0101329888/'
+  };
+  const search = new JekyllSearch(data);
   search.init();
 </script>
 
