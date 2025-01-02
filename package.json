@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "bundle exec jekyll s --watch --incremental --future -V -P 4444",
+    "start": "bundle exec jekyll s --watch --incremental --future -V -P 4000",
     "build": "bundle exec jekyll build --future -V",
     "deploy": "npm run build && npx gh-pages -d _site"
   },
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ULL-ESIT-DMSI/intro2sd-template#readme",
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "whatwg-fetch": "^3.6.20"
   }
 }
