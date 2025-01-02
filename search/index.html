@@ -1,0 +1,29 @@
+
+<h1>Search</h1>
+
+<form id="search-form" action="">
+  <label class="label" for="search">Search term (accepts a regex):</label>
+  <br />
+  <input class="input" id="search" type="text" name="search" autofocus="" placeholder="e.g. Promise" autocomplete="off" />
+  
+  <ul class="list  list--results" id="list">
+  </ul>
+</form>
+
+<p>&lt; script type=”text/javascript” src=”/assets/src/fetch.js”&gt;&lt;/script&gt;
+&lt; script type=”text/javascript” src=”/assets/src/search.js”&gt;&lt;/script&gt;</p>
+
+<p>&lt; script type=”text/javascript”&gt;</p>
+
+<p>const search = new JekyllSearch(
+    ‘https://ull-mii-sytws-2425.github.io/assets/src/search.liquid’,
+    ‘#search’,
+    ‘#list’,
+    ‘/intro2sd-edwin-plasencia-hernandez-alu0101329888/’ // put here your /baseurl/
+  );
+  search.init();</p>
+
+<p>&lt;/script&gt;</p>
+
+<noscript>Please enable JavaScript to use the search form.</noscript>
+
