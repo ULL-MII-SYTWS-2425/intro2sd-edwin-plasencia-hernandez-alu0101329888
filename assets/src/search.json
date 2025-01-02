@@ -140,7 +140,7 @@
   {
     "title": "Search",
     "excerpt": "\n",
-    "content": "{% capture initSearch %}\n\n\n  Search term (accepts a regex):\n  \n  \n  \n  \n  \n\n\n\n\n\n\n\n\nPlease enable JavaScript to use the search form.\n\n{% endcapture %}\n\n\n  \n    \n      {{ initSearch\n      lstrip }}\n    \n  \n\n\n",
+    "content": "{% capture initSearch %}\n\n\n  Search term (accepts a regex):\n  \n  \n  \n  \n\n\n\n\n\n\n\n\nPlease enable JavaScript to use the search form.\n\n{% endcapture %}\n\n\n  \n    \n      {{ initSearch\n      lstrip }}\n    \n  \n\n\n",
     "url": "/intro2sd-edwin-plasencia-hernandez-alu0101329888//search/"
   },
   
