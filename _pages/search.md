@@ -28,7 +28,7 @@ title: Search
 < script type="text/javascript">
 
   const search = new JekyllSearch(
-    '{{site.url}}/assets/src/search.json',
+    '{{site.url}}/assets/src/search.liquid',
     '#search',
     '#list',
     '/intro2sd-edwin-plasencia-hernandez-alu0101329888/' // put here your /baseurl/
